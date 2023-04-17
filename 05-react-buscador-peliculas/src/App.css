@@ -1,0 +1,111 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 32px auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.header h1 {
+  color: #eee;
+  margin-bottom: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 376px;
+}
+
+.form div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.form div input[type='text'] {
+  color: #fff;
+  background-color: #161f27;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 10px;
+  width: 335px;
+  border: 2px solid #0096bfab;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form div input[type='checkbox'] {
+  margin: 0;
+  vertical-align: middle;
+  position: relative;
+  border-radius: 7px;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.form button[type='submit'] {
+  padding: 10px;
+  background: #eee;
+  color: #222;
+  width: 150px;
+  font-family: inherit;
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.main {
+  width: 768px;
+  text-align: center;
+}
+
+.movies {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  width: 100%;
+  gap: 16px;
+}
+
+.movie {
+  text-align: center;
+  border: 2px solid #0096bfab;
+  border-radius: 6px;
+}
+
+.movie h3,
+.movie p {
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.movie h3 {
+  font-size: 18px;
+}
+
+.movie p {
+  font-size: 14px;
+}
+
+.movie img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
