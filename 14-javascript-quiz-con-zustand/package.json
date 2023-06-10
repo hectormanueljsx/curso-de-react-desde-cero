@@ -1,0 +1,42 @@
+{
+  "name": "14-javascript-quiz-con-zustand",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "prettier": "prettier --write .",
+    "eslint": "eslint --fix . --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "@emotion/react": "11.11.0",
+    "@emotion/styled": "11.11.0",
+    "@mui/icons-material": "5.11.16",
+    "@mui/material": "5.13.3",
+    "canvas-confetti": "1.6.0",
+    "react-dom": "18.2.0",
+    "react-syntax-highlighter": "15.5.0",
+    "react": "18.2.0",
+    "zustand": "4.3.8"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "1.6.0",
+    "@types/react-dom": "18.0.11",
+    "@types/react-syntax-highlighter": "15.5.7",
+    "@types/react": "18.0.28",
+    "@typescript-eslint/eslint-plugin": "5.43.0",
+    "@vitejs/plugin-react-swc": "3.0.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-config-standard-with-typescript": "34.0.1",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-n": "15.0.0",
+    "eslint-plugin-promise": "6.0.0",
+    "eslint-plugin-react": "7.32.2",
+    "eslint": "8.38.0",
+    "prettier": "2.8.7",
+    "typescript": "4.9.3",
+    "vite": "4.2.0"
+  }
+}
